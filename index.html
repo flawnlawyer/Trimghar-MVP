@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrimGhar - Elevate Your Grooming Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@400;500&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <h2 class="logo-text">TrimGhar</h2>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#barbers" class="nav-link">Book Now</a>
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Elevate Your Grooming Experience</h1>
+                <p class="hero-subtitle">Nepal's premier barber appointment platform connecting style-conscious men with skilled professionals. Experience confidence, trust, and premium accessibility.</p>
+                <button class="btn btn-primary hero-cta">Book Your Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barber Showcase Section -->
+    <section id="barbers" class="barbers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Expert Barbers</h2>
+                <p class="section-subtitle">Choose from Nepal's finest grooming professionals</p>
+            </div>
+            <div class="barbers-grid" id="barbersGrid">
+                <!-- Barber cards will be rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Premium Services</h2>
+                <p class="section-subtitle">Comprehensive grooming solutions tailored for modern men</p>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <!-- Service cards will be rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real experiences from satisfied customers</p>
+            </div>
+            <div class="reviews-container" id="reviewsContainer">
+                <!-- Reviews will be rendered here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">TrimGhar</h3>
+                    <p class="footer-description">Nepal's premier grooming experience platform</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-info">
+                        <p>📞 +977-1-4444444</p>
+                        <p>✉️ hello@trimghar.com</p>
+                        <p>📍 Kathmandu, Nepal</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-link">Facebook</a>
+                        <a href="#" target="_blank" class="social-link">Instagram</a>
+                        <a href="#" target="_blank" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Download App</h4>
+                    <div class="app-links">
+                        <a href="#" target="_blank" class="app-link">iOS App Store</a>
+                        <a href="#" target="_blank" class="app-link">Google Play</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TrimGhar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Animation -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="scissors-animation">✂️</div>
+        <p class="loading-text">Preparing your grooming experience...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
